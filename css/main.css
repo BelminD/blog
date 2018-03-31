@@ -90,7 +90,7 @@ article:first-child {
 }
 
 header{
-	padding-top:100px;
+	padding-top:60px;
 	text-align: center;
 }
 
@@ -106,7 +106,7 @@ article h2 {
 	letter-spacing: 0px;
 	font-weight: 700;
 	font-style: normal;
-	margin: 0 0 28px;
+	margin: 0 0 20px;
 }
 
 article h3 {
@@ -116,7 +116,14 @@ article h3 {
 	font-weight: 400;
 	font-style:normal;
 	font-size: 13px;
-	color:#a8a8a8;
+
+}
+
+article h3 svg{
+	width:15px;
+	position: relative;
+	top:4px;
+
 }
 
 article h4 {
@@ -129,9 +136,23 @@ article h4 {
 	color:#a8a8a8;
 }
 
+article h4 a {
+	text-decoration: none;
+	line-height: 1.6em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: normal;
+	font-size:13px;
+	color:#a8a8a8;
+}
+
+h4 a:hover, .article-bottom nav li a:hover{
+	color:#121212;
+}
+
 .article-body{
 	position: relative;
-	padding: 0 0 20px;
 }
 
 article img{
@@ -183,6 +204,7 @@ article p {
 
 .article-bottom nav li:first-child{
 	padding-left:28px;
+	padding-right:20px;
 }
 
 .article-bottom nav li a{
@@ -190,10 +212,15 @@ article p {
 	 color:#666;
 }
 
-.article-bottom nav li a:hover{
-	color:gray;
+.article-bottom svg{
+	width:18px;
+	position: relative;
+	top:8px;
 }
 
+.article-bottom li:last-child{
+	padding-right:5px;
+}
 
 footer{
 	width:100%;
